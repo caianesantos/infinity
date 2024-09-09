@@ -16,7 +16,7 @@ while True:
         break
     
     else:
-        print(f"Infelizmente você errou. Tente novamente!") 
+        print("Infelizmente você errou. Tente novamente!") 
 
     if acumulador_tentativas == 3:    
         print("Suas tentativas acabaram!")
