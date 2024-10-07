@@ -1,2 +1,2 @@
 # infinity
-Para envio de provas, atividades, etc.
+Para envio de provas.
