@@ -36,11 +36,13 @@ while(true){
         lista.splice(removerItem, 1)
     }
     else if (opcao == "3"){
+        let texto = "";
         let i = 0
         for (item of lista){
-            alert(`${i}: ${item}`)
-            i++
+            texto += `${i}: ${item}\n`;
+            i++;
         }
+        alert(texto);
     }
     else if (opcao == "4"){
         let atualizar = Number(prompt("Informe o índice do item a ser atualizado: "))
